@@ -27,7 +27,7 @@ export function SecondarySidebar() {
         animate={{ opacity: 1, x: 0 }}
         exit={{ opacity: 0, x: -20 }}
         transition={{ duration: 0.2 }}
-        className="fixed left-[72px] top-0 bottom-0 w-52 bg-surface/50 border-r border-border backdrop-blur-xl p-4 z-30 hidden md:block"
+        className="fixed left-[72px] top-0 bottom-0 w-52 bg-surface border-r border-border p-4 z-30 hidden md:block"
       >
         <h3 className="text-xs font-semibold text-text-secondary uppercase tracking-wider mb-4">
           {section}

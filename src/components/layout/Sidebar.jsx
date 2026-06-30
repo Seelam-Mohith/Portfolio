@@ -19,7 +19,7 @@ export function Sidebar() {
       initial={{ x: -80 }}
       animate={{ x: 0 }}
       transition={{ type: 'spring', stiffness: 200, damping: 25 }}
-      className="fixed left-0 top-0 bottom-0 w-[72px] bg-surface border-r border-border flex flex-col items-center py-3 gap-1 z-40"
+      className="fixed left-0 top-0 bottom-0 w-[72px] bg-background border-r border-border flex flex-col items-center py-3 gap-1 z-40"
     >
       <motion.div
         initial={{ scale: 0 }}

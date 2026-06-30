@@ -15,7 +15,7 @@ export function Topbar() {
       initial={{ y: -60 }}
       animate={{ y: 0 }}
       transition={{ type: 'spring', stiffness: 200, damping: 25 }}
-      className="fixed top-0 left-[72px] right-0 h-14 bg-surface/80 backdrop-blur-xl border-b border-border flex items-center justify-between px-4 z-30"
+      className="fixed top-0 left-[72px] right-0 h-14 bg-background border-b border-border flex items-center justify-between px-4 z-30"
     >
       <div className="flex items-center gap-3">
         <button

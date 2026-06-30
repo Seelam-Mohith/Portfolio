@@ -15,8 +15,8 @@ export function AppLayout() {
       <div className="flex-1 flex flex-col min-h-screen ml-[72px]">
         <Topbar />
 
-        <div className="flex-1 flex">
-          <main className="flex-1 p-4 md:p-6 pt-20 overflow-y-auto">
+        <div className="flex-1 flex pt-14">
+          <main className="flex-1 p-4 md:p-6 overflow-y-auto">
             <Outlet />
           </main>
           <ActivityPanel />
