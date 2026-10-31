@@ -24,7 +24,7 @@ export function ProfileCard() {
       >
         <div className="w-32 h-32 rounded-full bg-gradient-to-br from-primary to-secondary p-0.5">
           <div className="w-full h-full rounded-full bg-surface flex items-center justify-center overflow-hidden">
-            <span className="text-5xl font-bold text-primary">S</span>
+            <span className="text-5xl font-bold text-primary">K</span>
           </div>
         </div>
         <div className="absolute -bottom-1 -right-1 w-8 h-8 rounded-full bg-accent border-2 border-surface flex items-center justify-center">
@@ -38,7 +38,7 @@ export function ProfileCard() {
         transition={{ delay: 0.2 }}
         className="text-3xl font-bold text-text"
       >
-        John Doe
+        J Sree Karnika
       </motion.h1>
 
       <motion.p
@@ -47,7 +47,7 @@ export function ProfileCard() {
         transition={{ delay: 0.3 }}
         className="text-text-secondary mt-1"
       >
-        Software Engineer
+        AI & ML Undergraduate
       </motion.p>
 
       <motion.div
