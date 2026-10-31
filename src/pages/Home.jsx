@@ -7,19 +7,19 @@ import { PROJECTS } from '../constants'
 import { useState } from 'react'
 
 const stories = [
-  { label: 'React', emoji: '⚛️', color: 'from-sky-400 to-cyan-300' },
+  { label: 'Python', emoji: '🐍', color: 'from-sky-400 to-cyan-300' },
   { label: 'AI/ML', emoji: '🧠', color: 'from-purple-400 to-pink-300' },
-  { label: 'Design', emoji: '🎨', color: 'from-pink-400 to-rose-300' },
-  { label: 'Cloud', emoji: '☁️', color: 'from-blue-400 to-indigo-300' },
-  { label: 'DevOps', emoji: '🐳', color: 'from-cyan-400 to-teal-300' },
-  { label: 'Security', emoji: '🛡️', color: 'from-emerald-400 to-green-300' },
+  { label: 'Vision', emoji: '👁️', color: 'from-pink-400 to-rose-300' },
+  { label: 'NLP', emoji: '💬', color: 'from-blue-400 to-indigo-300' },
+  { label: 'Edge AI', emoji: '📱', color: 'from-cyan-400 to-teal-300' },
+  { label: 'Automation', emoji: '⚙️', color: 'from-emerald-400 to-green-300' },
 ]
 
 const activities = [
-  { icon: '📦', text: 'Published AuthFlow library', time: '2h' },
-  { icon: '📝', text: 'Wrote article on Agentic AI', time: '1d' },
-  { icon: '⭐', text: 'Starred 5 repos this week', time: '2d' },
-  { icon: '🔧', text: 'Fixed 3 bugs in OSS projects', time: '3d' },
+  { icon: '🚀', text: 'Started AI Automation internship at QuantumReady', time: 'Now' },
+  { icon: '🩺', text: 'Built MediSign prescription translator', time: '2026' },
+  { icon: '✈️', text: 'Developed LSTM flight delay predictor', time: '2026' },
+  { icon: '🍎', text: 'Explored Edge AI for post-harvest loss reduction', time: '2026' },
 ]
 
 export default function Home() {
@@ -42,7 +42,7 @@ export default function Home() {
             <div className="flex justify-between items-start -mt-12 mb-4">
               <div className="relative">
                 <div className="w-24 h-24 rounded-full border-4 border-surface bg-gradient-to-br from-indigo-400 to-purple-500 flex items-center justify-center text-3xl font-bold text-white shadow-lg">
-                  S
+                  K
                 </div>
                 <div className="absolute -bottom-1 -right-1 w-6 h-6 rounded-full bg-accent border-2 border-surface flex items-center justify-center">
                   <div className="w-2 h-2 rounded-full bg-white" />
@@ -54,29 +54,29 @@ export default function Home() {
             </div>
 
             <div className="space-y-1">
-              <h1 className="text-2xl font-bold text-text">Sahil</h1>
+              <h1 className="text-2xl font-bold text-text">J Sree Karnika</h1>
               <div className="flex items-center gap-4 text-sm text-text-secondary flex-wrap">
                 <TypingText
-                  strings={['Full Stack Developer', 'AI/ML Engineer', 'UI/UX Designer', 'Open Source Advocate']}
+                  strings={['AI & ML Undergraduate', 'Computer Vision Enthusiast', 'NLP & OCR Developer', 'AI Automation Intern']}
                   className="text-primary font-medium"
                 />
               </div>
               <p className="text-sm text-text-secondary flex items-center gap-1 mt-1">
-                Building products that matter
+                Building intelligent systems that solve real problems
               </p>
               <div className="flex items-center gap-4 text-xs text-text-secondary mt-2 flex-wrap">
-                <span className="flex items-center gap-1"><MapPin size={12} /> San Francisco</span>
-                <span className="flex items-center gap-1"><Calendar size={12} /> Joined 2022</span>
-                <span className="flex items-center gap-1"><LinkIcon size={12} /> sahil.dev</span>
+                <span className="flex items-center gap-1"><MapPin size={12} /> Hyderabad, India</span>
+                <span className="flex items-center gap-1"><Calendar size={12} /> Joined 2023</span>
+                <span className="flex items-center gap-1"><LinkIcon size={12} /> karnikajanapala@gmail.com</span>
               </div>
             </div>
 
             <div className="flex items-center gap-6 mt-4 py-4 border-t border-border">
               {[
-                { value: 30, suffix: '+', label: 'Projects' },
-                { value: 50, suffix: '+', label: 'Skills' },
-                { value: 4, suffix: 'yr', label: 'Exp' },
-                { value: 1.5, suffix: 'k', label: 'Followers' },
+                { value: 3, suffix: '+', label: 'Projects' },
+                { value: 31, suffix: '+', label: 'Skills' },
+                { value: 8, suffix: '.62', label: 'CGPA' },
+                { value: 2, suffix: '', label: 'Certs' },
               ].map((stat) => (
                 <div key={stat.label} className="text-center">
                   <p className="text-lg font-bold text-text">
@@ -88,8 +88,8 @@ export default function Home() {
             </div>
 
             <p className="text-sm text-text-secondary leading-relaxed mt-3">
-              Full-stack developer passionate about AI, open source, and building beautiful interfaces.
-              Currently exploring agentic AI and LLMs. Previously at TechCorp, StartupXYZ.
+              AIML final-year undergraduate building end-to-end ML and AI systems across computer vision,
+              OCR/NLP, edge AI, and automation. Currently an AI Automation Engineering Intern at QuantumReady.
             </p>
           </div>
         </motion.div>
@@ -149,7 +149,7 @@ export default function Home() {
         <div className="flex items-center gap-2 mt-6 mb-2">
           <span className="font-semibold text-text">Featured Projects</span>
           <span className="w-1 h-1 rounded-full bg-text-secondary" />
-          <span className="text-sm text-text-secondary">4 posts</span>
+          <span className="text-sm text-text-secondary">3 posts</span>
         </div>
 
         <div className="space-y-4">
@@ -166,7 +166,7 @@ export default function Home() {
                 <div className="absolute inset-0 bg-gradient-to-t from-surface via-transparent to-transparent" />
                 <div className="absolute top-3 right-3 flex gap-2">
                   <span className="px-2.5 py-1 rounded-full bg-background/80 backdrop-blur text-xs text-text-secondary">
-                    {project.category === 'ai-projects' ? 'AI' : project.category === 'web-projects' ? 'Web' : project.category}
+                    {project.category === 'ai-ml' ? 'AI/ML' : project.category === 'computer-vision' ? 'Computer Vision' : project.category === 'edge-ai' ? 'Edge AI' : project.category}
                   </span>
                 </div>
               </div>
