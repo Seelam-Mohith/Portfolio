@@ -7,21 +7,20 @@ import { SkillCard } from '../components/SkillCard'
 
 const categories = [
   { id: 'all', label: 'All', count: SKILLS.length },
-  { id: 'frontend', label: 'Frontend', count: SKILLS.filter((s) => s.category === 'frontend').length },
-  { id: 'backend', label: 'Backend', count: SKILLS.filter((s) => s.category === 'backend').length },
-  { id: 'database', label: 'Database', count: SKILLS.filter((s) => s.category === 'database').length },
+  { id: 'programming', label: 'Programming', count: SKILLS.filter((s) => s.category === 'programming').length },
   { id: 'ai-ml', label: 'AI/ML', count: SKILLS.filter((s) => s.category === 'ai-ml').length },
-  { id: 'cybersecurity', label: 'Security', count: SKILLS.filter((s) => s.category === 'cybersecurity').length },
-  { id: 'cloud', label: 'Cloud', count: SKILLS.filter((s) => s.category === 'cloud').length },
+  { id: 'libraries', label: 'Libraries', count: SKILLS.filter((s) => s.category === 'libraries').length },
+  { id: 'data', label: 'Data Analytics', count: SKILLS.filter((s) => s.category === 'data').length },
   { id: 'tools', label: 'Tools', count: SKILLS.filter((s) => s.category === 'tools').length },
+  { id: 'languages', label: 'Languages', count: SKILLS.filter((s) => s.category === 'languages').length },
 ]
 
 const endorsements = [
-  { name: 'React', endorsers: ['Alice Chen', 'Bob Wang', 'Carlos M.', 'Diana K.', 'Eve L.'] },
-  { name: 'TypeScript', endorsers: ['Bob Wang', 'Carlos M.', 'Frank O.', 'Grace H.'] },
-  { name: 'Node.js', endorsers: ['Alice Chen', 'Diana K.', 'Eve L.', 'Frank O.'] },
-  { name: 'Python', endorsers: ['Carlos M.', 'Grace H.', 'Hank P.'] },
-  { name: 'Docker', endorsers: ['Diana K.', 'Frank O.', 'Hank P.'] },
+  { name: 'Python', endorsers: ['Aarav R.', 'Meera S.', 'Karthik V.', 'Sneha P.', 'Rahul M.'] },
+  { name: 'TensorFlow', endorsers: ['Meera S.', 'Karthik V.', 'Ananya G.', 'Vikram T.'] },
+  { name: 'OpenCV', endorsers: ['Aarav R.', 'Sneha P.', 'Rahul M.', 'Ananya G.'] },
+  { name: 'NLP', endorsers: ['Karthik V.', 'Vikram T.', 'Sneha P.'] },
+  { name: 'SQL', endorsers: ['Meera S.', 'Ananya G.', 'Rahul M.'] },
 ]
 
 export default function Skills() {
