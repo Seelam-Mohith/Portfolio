@@ -69,18 +69,18 @@ title="GitHub Activity"
       </ActivityCard>
 
       <ActivityCard
-        title="LeetCode Progress"
+        title="Academic Performance"
         icon={<Code2 size={14} />}
       >
         <div className="space-y-2">
           <div className="flex justify-between text-xs text-text-secondary">
-            <span>Problems Solved</span>
-            <span className="text-text font-medium">127/500</span>
+            <span>CGPA</span>
+            <span className="text-text font-medium">8.62/10</span>
           </div>
           <div className="relative h-2 rounded-full bg-surface-hover overflow-hidden">
             <motion.div
               initial={{ width: 0 }}
-              animate={{ width: '25.4%' }}
+              animate={{ width: '86.2%' }}
               transition={{ duration: 1, delay: 0.5 }}
               className="absolute inset-y-0 left-0 rounded-full bg-gradient-to-r from-yellow-400 to-yellow-600"
             />
@@ -93,7 +93,7 @@ title="GitHub Activity"
         icon={<TrendingUp size={14} />}
       >
         <div className="flex flex-wrap gap-1.5">
-          {['React', 'TypeScript', 'Node.js', 'Python', 'Docker', 'AWS'].map((tech) => (
+          {['Python', 'TensorFlow', 'OpenCV', 'NLP', 'Computer Vision', 'Power BI'].map((tech) => (
             <span
               key={tech}
               className="px-2 py-0.5 text-xs rounded-md bg-surface-hover text-text-secondary"
