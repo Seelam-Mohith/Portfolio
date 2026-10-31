@@ -6,10 +6,9 @@ import { PageTransition } from '../components/layout/PageTransition'
 
 const filters = [
   { id: 'all', label: 'All' },
-  { id: 'ai-projects', label: 'AI' },
-  { id: 'web-projects', label: 'Web' },
-  { id: 'hackathons', label: 'Hackathons' },
-  { id: 'open-source', label: 'Open Source' },
+  { id: 'ai-ml', label: 'AI/ML' },
+  { id: 'computer-vision', label: 'Computer Vision' },
+  { id: 'edge-ai', label: 'Edge AI' },
 ]
 
 export default function Projects() {
