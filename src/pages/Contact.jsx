@@ -37,10 +37,10 @@ export default function Contact() {
         >
           <div className="p-4 border-b border-border flex items-center gap-3">
             <div className="w-10 h-10 rounded-full bg-gradient-to-br from-indigo-400 to-purple-500 flex items-center justify-center text-white font-semibold text-sm">
-              S
+              K
             </div>
             <div>
-              <p className="font-medium text-text text-sm">Sahil</p>
+              <p className="font-medium text-text text-sm">J Sree Karnika</p>
               <p className="text-[11px] text-accent flex items-center gap-1">
                 <span className="w-1.5 h-1.5 rounded-full bg-accent inline-block" />
                 Usually replies within a day
@@ -116,9 +116,9 @@ export default function Contact() {
         </motion.div>
 
         <div className="mt-4 flex items-center justify-center gap-6 text-xs text-text-secondary">
-          <span>sahil@example.com</span>
+          <span>karnikajanapala@gmail.com</span>
           <span className="w-1 h-1 rounded-full bg-border" />
-          <span>github.com/sahil</span>
+          <span>+91-63047 68358</span>
         </div>
       </div>
     </PageTransition>
