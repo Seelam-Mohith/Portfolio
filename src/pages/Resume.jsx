@@ -29,61 +29,64 @@ export default function Resume() {
         >
           <div className="flex items-center gap-3 pb-6 border-b border-border">
             <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
-              <span className="text-xl font-bold text-white">JD</span>
+              <span className="text-xl font-bold text-white">JK</span>
             </div>
             <div>
-              <h3 className="text-lg font-semibold text-text">John Doe</h3>
-              <p className="text-sm text-text-secondary">Senior Software Engineer</p>
+              <h3 className="text-lg font-semibold text-text">J Sree Karnika</h3>
+              <p className="text-sm text-text-secondary">AI & ML Undergraduate | Computer Vision | NLP | Automation</p>
             </div>
           </div>
 
           <div className="space-y-6">
             <Section icon={Briefcase} title="Professional Summary">
               <p className="text-sm text-text-secondary leading-relaxed">
-                Results-driven software engineer with 4+ years of experience building modern web applications.
-                Proven track record in leading frontend architecture, mentoring teams, and delivering scalable solutions.
-                Passionate about AI/ML, open source, and creating exceptional user experiences.
+                AIML final-year undergraduate with hands-on experience building end-to-end machine learning and AI
+                systems across Computer Vision, OCR/NLP, Edge AI, and Automation. Currently an AI Automation
+                Engineering Intern at QuantumReady, contributing to AI-enabled messaging workflows and LLM-assisted
+                features. Proficient in Python, SQL, TensorFlow, Keras, OpenCV, and applied AI development.
               </p>
             </Section>
 
             <Section icon={Briefcase} title="Experience">
               <div className="space-y-4">
                 <ExpItem
-                  role="Senior Software Engineer"
-                  company="TechCorp Inc."
-                  period="Jan 2024 - Present"
-                  description="Leading frontend architecture and mentoring junior developers."
-                />
-                <ExpItem
-                  role="Full Stack Developer"
-                  company="StartupXYZ"
-                  period="Mar 2022 - Dec 2023"
-                  description="Built and maintained full-stack features for SaaS platform."
-                />
-                <ExpItem
-                  role="Frontend Developer"
-                  company="WebAgency Pro"
-                  period="Jun 2021 - Feb 2022"
-                  description="Created responsive web applications for diverse clients."
+                  role="AI Automation Engineering Intern"
+                  company="QuantumReady"
+                  period="Sep 2026 - Present"
+                  description="Remote — contributing to AI-enabled messaging workflows, LLM-assisted features, and end-to-end testing for a microlearning platform."
                 />
               </div>
             </Section>
 
             <Section icon={GraduationCap} title="Education">
               <div className="space-y-3">
-                <div className="flex justify-between items-start">
+                <div className="flex justify-between items-start gap-4">
                   <div>
-                    <p className="text-sm font-medium text-text">B.Tech in Computer Science</p>
-                    <p className="text-xs text-text-secondary">University of Technology</p>
+                    <p className="text-sm font-medium text-text">B.E. in Artificial Intelligence and Machine Learning</p>
+                    <p className="text-xs text-text-secondary">Chaitanya Bharathi Institute of Technology (CBIT), Hyderabad</p>
                   </div>
-                  <span className="text-xs text-text-secondary">2020 - 2024</span>
+                  <span className="text-xs text-text-secondary whitespace-nowrap">2023 - 2027 (Expected) · CGPA 8.62</span>
+                </div>
+                <div className="flex justify-between items-start gap-4">
+                  <div>
+                    <p className="text-sm font-medium text-text">Intermediate (MPC)</p>
+                    <p className="text-xs text-text-secondary">Sri Chaitanya College, Hyderabad</p>
+                  </div>
+                  <span className="text-xs text-text-secondary whitespace-nowrap">98.2%</span>
+                </div>
+                <div className="flex justify-between items-start gap-4">
+                  <div>
+                    <p className="text-sm font-medium text-text">SSC</p>
+                    <p className="text-xs text-text-secondary">Sri Chaitanya School, Hyderabad</p>
+                  </div>
+                  <span className="text-xs text-text-secondary whitespace-nowrap">CGPA 10.0</span>
                 </div>
               </div>
             </Section>
 
             <Section icon={Code2} title="Skills">
               <div className="flex flex-wrap gap-2">
-                {['React', 'TypeScript', 'Next.js', 'Node.js', 'Python', 'TensorFlow', 'Docker', 'AWS', 'PostgreSQL'].map(
+                {['Python', 'SQL', 'TensorFlow', 'Keras', 'OpenCV', 'NLP', 'Computer Vision', 'OCR', 'LLMs', 'Power BI', 'Git', 'Raspberry Pi'].map(
                   (skill) => (
                     <span
                       key={skill}
@@ -98,7 +101,7 @@ export default function Resume() {
 
             <Section icon={Award} title="Certifications">
               <div className="flex flex-wrap gap-3">
-                {['AWS Solutions Architect', 'Google Cloud Engineer', 'CompTIA Security+'].map((cert) => (
+                {['OCI AI Foundations Associate', 'IBM AI Fundamentals'].map((cert) => (
                   <div
                     key={cert}
                     className="px-3 py-2 rounded-lg bg-surface-hover border border-border text-sm text-text-secondary"
