@@ -1,6 +1,6 @@
 # Portfolio
 
-Personal portfolio site for J Sree Karnika, an AI/ML engineer focused on computer vision, OCR, and edge AI.
+Personal portfolio site for J Sree Karnika, an AI/ML engineer focused on computer vision, OCR, and edge AI
 
 ## Built with
 
