@@ -9,10 +9,12 @@ export function filterProjects(projects, category) {
 }
 
 export function searchItems(items, query) {
-  const q = query.toLowerCase()
+  const q = query.trim().toLowerCase()
+  if (!q) return items
   return items.filter((item) => {
     const title = item.title || item.name || ''
-    return title.toLowerCase().includes(q) || item.description.toLowerCase().includes(q)
+    const description = item.description || ''
+    return title.toLowerCase().includes(q) || description.toLowerCase().includes(q)
   })
 }
 
